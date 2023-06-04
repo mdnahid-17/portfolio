@@ -1,0 +1,117 @@
+/*mobaile device css start*/
+
+
+@media (max-width:575.98px) {
+
+
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+
+    /* BANNER PART START  */
+    #particles-js {
+        padding: 50px 0 0;
+    }
+
+    .banner-text {
+        position: unset;
+        width: 100%;
+    }
+
+    .banner-text p {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    .banner-image {
+        position: unset;
+        width: 100%;
+        margin: -80px 0px -100px;
+    }
+
+    /* BANNER PART END  */
+
+    /* ABOUT TEXT PART START  */
+    .about-image {
+        padding: 30px 0 0;
+    }
+
+    .about-text {
+        padding: 30px 0 0;
+    }
+
+    .about-text h6 {
+        padding: 0px;
+    }
+
+    .about-text p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    /* ABOUT TEXT PART END  */
+
+    /* SERVICES PART START  */
+    .service-iteams {
+        padding: 30px 25px;
+        margin: 0 10px 30px;
+    }
+
+    .service-iteams i {
+        padding: 0 0 10px;
+    }
+
+    .service-iteams h5 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .service-iteams p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    /* SERVICES PART END  */
+
+    /* OUR PROJECTS PART START  */
+    .project-image {
+        width: 43%;
+
+    }
+
+    /* OUR PROJECTS PART END  */
+    .input-box {
+        width: 60%;
+        margin: unset;
+    }
+
+    .input-box textarea {
+        width: 270px;
+    }
+
+    .input-box input {
+        margin: 0 20px 15px;
+    }
+
+
+    .input-box textarea {
+        margin: 0px 20px 0;
+
+    }
+
+    .socal-icon {
+        padding: 30px 0 0;
+    }
+
+    .copy-right {
+        padding: 30px 10px 0;
+    }
+
+
+
+
+
+
+}
+
+/*mobaile device css end*/
