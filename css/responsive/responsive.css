@@ -4,11 +4,15 @@
 @media (max-width:575.98px) {
 
     .navbar {
-        width: 97% !important;
+        width: 99% !important;
     }
 
     .navbar-toggler-icon {
         color: #fff;
+    }
+
+    .top-button {
+        display: none !important;
     }
 
     /* BANNER PART START  */

@@ -195,6 +195,24 @@ $(function () {
     }
 
 
+    //top scrollbar js
+
+    $('.top-button').on('click', function () {
+        $('html,body').animate({ scrollTop: 0 })
+    })
+
+    $(window).on('scroll', function () {
+        var scroll = $(this).scrollTop();
+        if (scroll > 1000) {
+            $('.top-button').fadeIn(500)
+        } else {
+            $('.top-button').fadeOut(500)
+
+        }
+
+    })
+
+
 
 
     //responsive

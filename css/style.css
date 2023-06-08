@@ -9,6 +9,12 @@ a {
     display: inline-block;
 }
 
+html,
+body {
+    scroll-behavior: unset !important;
+
+}
+
 /* NAVBAR PART START  */
 nav.navbar {
     position: fixed;
@@ -88,6 +94,14 @@ ul.navbar-nav {
 
 /* NAVBAR PART END  */
 
+.top-button {
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    bottom: 110px;
+    display: none;
+}
 
 /* BANNER PART START */
 #particles-js {
